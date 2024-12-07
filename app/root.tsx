@@ -8,18 +8,19 @@ import {
 } from '@remix-run/react'
 import '@unocss/reset/tailwind.css'
 import 'virtual:uno.css'
-import { Toaster } from './components/ui/sonner'
 
 import {
   QueryClient,
   QueryClientProvider,
 } from '@tanstack/react-query'
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
+import { Toaster } from './components/ui/sonner'
 
 const queryClient = new QueryClient()
 
 export const meta: MetaFunction = () => [
-  { title: 'unocss remix' },
+  { title: 'emoji16z.ai' },
+  { name: 'description', content: 'Tech is weird and we love it' },
 ]
 
 export function Layout({ children }: { children: React.ReactNode }) {
@@ -28,6 +29,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/Alien Monster.webp" />
         <Meta />
         <Links />
       </head>
