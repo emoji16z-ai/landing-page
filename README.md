@@ -1,65 +1,50 @@
-<br>
+# emoji16z.ai
 
 <p align="center">
-<img src="./public/favicon.ico" style="width:100px;" />
+<img src="./public/Alien Monster.webp" style="width:100px;" />
 </p>
 
 <p align='center'>
-Mocking up web app with <b>Remox-lite</b><sup><em>(speed)</em></sup><br>
+Tech is weird and we love it
 </p>
 
 <br>
 
-> **Note**: This template is created by Remix and Vite.
-
-<br>
+A modern, emoji-themed landing page built with Remix and React.
 
 ## Features
 
-- ⚛️ [Remix](https://remix.run), [Vite](https://remix.run/docs/en/main/future/vite), [pnpm](https://pnpm.io) - born with fresh and modern web tech stack
+- 🎨 Dynamic emoji themes that change the entire page mood
+- 📝 Waitlist functionality for early access
+- 🎯 Responsive design with modern UI components
+- ⚡️ Built with modern tech stack:
+  - [Remix](https://remix.run) - Full stack web framework
+  - [React](https://reactjs.org) - UI framework
+  - [UnoCSS](https://github.com/antfu/unocss) - Instant on-demand atomic CSS
+  - [TypeScript](https://www.typescriptlang.org) - Type safety
+  - [Sonner](https://sonner.emilkowal.ski) - Toast notifications
 
-- 🗂 [File based routing](./app/routes)
+## Themes
 
-- 🎨 [UnoCSS](https://github.com/antfu/unocss) - the instant on-demand atomic CSS engine
+The landing page features multiple moods:
+- 👾 Tech is Weird
+- 😠 Rage Against the Machine
+- 😱 Embrace the Chaos
+- 🙄 Been There, Done That
 
-- 😃 [Use icons from any icon sets with classes](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
-
-- 🗒 [Markdown Support](https://remix.run/docs/en/main/guides/mdx)
-
-- 🦾 TypeScript, of course
-
-<br>
-
-## Try it now!
-
-> ~~🚧 Remix's Vite functionality is still an experimental feature and we will keep up with its latest development and API changes.~~
-
-> 🎉 The Vite feature of Remix has been officially released and has become a stable feature!
-
-### Clone to local
-
-If you prefer to do it manually with the cleaner git history
+## Development
 
 ```bash
-npx degit MoseStudio/remox-lite my-app
-cd my-app
+# Install dependencies
 pnpm install
+
+# Start dev server
+pnpm dev
+
+# Build for production
+pnpm build
 ```
 
-## Usage
+## License
 
-### Development
-
-Just run and visit http://localhost:5173
-
-```bash
-pnpm run dev
-```
-
-### Build
-
-To build the App, run
-
-```bash
-pnpm run build
-```
+MIT
